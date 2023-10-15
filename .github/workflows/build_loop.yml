@@ -33,7 +33,7 @@ jobs:
       - name: Customize Loop
         run: |
 
-          curl https://github.com/LeifBjarneKleven/Loop/commit/20d571b8bd34ef615e30cb198973649c64199211.patch | git apply -v --directory=Loop
+          curl https://github.com/LeifBjarneKleven/Loop/commit/8b5d85faa41bf0134e0789c54f33d0ff6b36d6d9.patch | git apply -v --directory=Loop
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
