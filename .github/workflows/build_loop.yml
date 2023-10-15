@@ -33,8 +33,6 @@ jobs:
       - name: Customize Loop
         run: |
 
-          # Submodule Loop patches:
-          # Loop: Models/LoopConstants: bolusPartialApplicationFactor = 0.8
           curl https://github.com/LeifBjarneKleven/Loop/commit/20d571b8bd34ef615e30cb198973649c64199211.patch | git apply -v --directory=Loop
       
       # Patch Fastlane Match to not print tables
