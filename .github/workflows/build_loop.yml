@@ -30,8 +30,8 @@ jobs:
           submodules: recursive
       
       # Customize Loop: Download and apply patches
-      - name: Customize Loop
-        run: curl https://github.com/LeifBjarneKleven/Loop/commit/b72afde8009187aa4639862ec20cbb578bbcccf4 | git apply -v --directory=Loop --allow-empty
+      - name: Customize Loop2
+        run: curl https://github.com/LeifBjarneKleven/Loop/commit/b72afde8009187aa4639862ec20cbb578bbcccf4.patch | git apply -v --directory=Loop
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
