@@ -31,7 +31,7 @@ jobs:
       
       # Customize Loop: Download and apply patches
       - name: Customize Loop2
-        run: curl https://github.com/LeifBjarneKleven/Loop/commit/3485304b9b5337df9d4bde56b66e325cff25fc8f.patch | git apply -v --directory=Loop
+        run: curl https://github.com/LeifBjarneKleven/Loop/commit/934ab8c411987e453e70fd8de6f63dee6f0f6f62.patch | git apply -v --directory=Loop
       
       # Patch Fastlane Match to not print tables
       - name: Patch Match Tables
